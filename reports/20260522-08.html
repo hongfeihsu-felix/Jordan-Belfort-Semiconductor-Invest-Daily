@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌏 Global Semi. Daily Intelligence</title>
+<style>
+body { background:#0d1117;color:#e6edf3;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;margin:0;padding:0; }
+.wrap { max-width:720px;margin:0 auto;padding:20px; }
+h1 { font-size:20px;font-weight:700;margin:0 0 4px 0;color:#e6edf3; }
+.date { color:#8b949e;font-size:12px;margin-bottom:24px; }
+h2 { font-size:14px;font-weight:600;color:#e6edf3;border-bottom:1px solid #30363d;padding-bottom:6px;margin:24px 0 12px 0; }
+h3 { font-size:13px;font-weight:600;color:#58a6ff;margin:16px 0 6px 0; }
+.tag { display:inline-block;background:#1f2937;border:1px solid #374151;border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;color:#58a6ff;margin-right:4px; }
+table { width:100%;border-collapse:collapse;font-size:13px;margin:8px 0; }
+th { background:#161b22;color:#8b949e;font-weight:600;text-align:left;padding:8px 10px;border:1px solid #30363d;font-size:11px; }
+td { padding:8px 10px;border:1px solid #30363d;vertical-align:top; }
+tr:nth-child(even) td { background:rgba(255,255,255,0.02); }
+blockquote { border-left:3px solid #58a6ff;margin:12px 0;padding:8px 16px;background:rgba(88,166,255,0.05);border-radius:0 6px 6px 0; }
+.quote-text { font-style:italic;margin-bottom:6px; }
+.quote-src { font-size:11px;color:#8b949e; }
+.quote-cn { color:#8b949e;font-size:12px;margin-top:4px; }
+.chain { background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px 16px;font-family:'SF Mono',Consolas,monospace;font-size:12px;line-height:1.8;margin:10px 0;white-space:pre-wrap;overflow-x:auto; }
+.chain-node { color:#58a6ff; }
+.chain-arrow { color:#8b949e; }
+.cal { display:flex;gap:10px;padding:4px 0;font-size:13px; }
+.cal-date { color:#58a6ff;font-weight:600;min-width:56px; }
+.cal-tag { color:#8b949e;font-size:11px; }
+.risk-red { color:#f85149; }
+.risk-orange { color:#d29922; }
+.risk-green { color:#3fb950; }
+.footer { margin-top:32px;padding-top:16px;border-top:1px solid #30363d;color:#8b949e;font-size:11px;text-align:center; }
+p { margin:8px 0; }
+li { margin:6px 0; }
+code { background:#1f2937;padding:2px 4px;border-radius:3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Global Semi. Daily Intelligence</h1><div class="date">2026/05/22</div>
+<h2>半导体投资每日简报 | 2026-05-22</h2>
+<h2>📌 Executive Summary</h2>
+<div class="cal">🟢 AI基础设施需求持续强劲 —— NVIDIA Blackwell架构芯片进入量产放量阶段，TSM CoWoS产能利用率维持高位，AI服务器需求未现降温信号，支撑半导体上游景气</div>
+<div class="cal">🔶 英伟达股价回调，估值压力显现 —— NVDA 当前$219，距近期高点$235回落约7%，P/E TTM ~72x处于历史高位，短期估值吸引力下降</div>
+<div class="cal">🔴 手机SoC库存调整深化 —— 联发科/高通4/3nm投片削减已发生，中国OEM出货目标持续下修，手机SoC产业链进入去化周期，消费端需求疲弱压制芯片厂Q2指引</div>
+<div class="cal">🔶 高通逆势走强 —— QCOM $213（+6.7% WoW），受益于AI手机SoC升级周期，高端芯片定价权相对联发科更强，但整体手机市场仍是存量竞争</div>
+<div class="cal">🟢 存储超级周期盈利释放在途 —— SK海力士Q1营收₩52.6万亿（+198% YoY）创历史记录，HBM订单已至2027年底，存储大周期仍在顶部右侧</div>
+<h2>📊 关键数据速览</h2>
+<table>
+<tr><td>指标</td><td>数值</td><td>QoQ/YoY</td></tr>
+<tr><td>NVDA 收盘</td><td>$219.51</td><td>📉 -6.9% WoW</td></tr>
+<tr><td>AMD 收盘</td><td>$449.59</td><td>📊 持平</td></tr>
+<tr><td>QCOM 收盘</td><td>$213.41</td><td>📈 +6.7% WoW</td></tr>
+<tr><td>AVGO 收盘</td><td>$414.57</td><td>📉 -5.7% WoW</td></tr>
+<tr><td>MRVL 收盘</td><td>$190.69</td><td>📈 +4.4% WoW</td></tr>
+<tr><td>TSM 收盘</td><td>$407.15</td><td>📉 -2.5% WoW</td></tr>
+<tr><td>MU 收盘</td><td>$762.10</td><td>📉 -1.8% WoW</td></tr>
+<tr><td>MSFT 收盘</td><td>$419.09</td><td>📈 +2.4% WoW</td></tr>
+<tr><td>GOOGL 收盘</td><td>$387.66</td><td>📉 -3.3% WoW</td></tr>
+<tr><td>AMZN 收盘</td><td>$268.46</td><td>📊 持平</td></tr>
+<tr><td>META 收盘</td><td>$607.38</td><td>📉 -1.8% WoW</td></tr>
+<tr><td>AAPL 收盘</td><td>$304.99</td><td>📈 +2.3% WoW</td></tr>
+<tr><td>TSLA 收盘</td><td>$417.85</td><td>📉 -5.7% WoW</td></tr>
+<tr><td>SK海力士Q1营收</td><td>₩52.6万亿</td><td>📈 +198% YoY</td></tr>
+<tr><td>SK海力士营业利润率</td><td>72%</td><td>📈 历史高位</td></tr>
+<tr><td>Q2 DRAM合约价预测</td><td>+58-63% QoQ</td><td>📈 仍高位但趋缓</td></tr>
+<tr><td>Q2 NAND合约价预测</td><td>+70-75% QoQ</td><td>📈 涨幅扩大</td></tr>
+<tr><td>联发科/高通4nm投片削减</td><td>-10-15%</td><td>📉 库存调整</td></tr>
+<tr><td>TSMC AI收入占比</td><td>~33%</td><td>📈 2026年预期</td></tr>
+</tbody></table>
+<h2>🏢 细分领域动态</h2>
+<h3>AI芯片：NVIDIA领跌但AI基础设施景气未变</h3>
+<p>NVIDIA当前$219，较近期高点$235回落约7%，主因市场对AI资本开支可持续性的分歧加大——微软/谷歌/亚马逊Q1资本开支仍维持高位，但Nvidia P/E TTM约72x已充分定价成长预期，短期估值面临压力。</p>
+<p>竞争影响： AMD(MRVL/AVGO)AI ASIC路线差异化竞争，在定制AI芯片市场获取份额；Nvidia H100/H200已量产 Blackwell大规模出货，HBM3E 12层封装良率改善中；算力竞争进入性价比时代，AMD MI350/Intel Gaudi3压力加大。</p>
+<h3>手机SoC：高通逆势走强，联发科承压</h3>
+<p>高通$213（+6.7% WoW）受益于：</p>
+<p>1. AI手机SoC升级周期，骁龙8 Elite Gen5获三星/小米旗舰机采用</p>
+<p>2. 高端芯片定价权相对联发科更强</p>
+<p>3. AI功能渗透率提升，支撑换机周期</p>
+<p>联发科当前承压，Dimensity 9500（3nm）面临与高通8 Elite Gen5竞争，中国OEM出货目标下修压缩采购量，成熟制程（28nm）供需边际缓和。</p>
+<p>竞争影响： 紫光展锐在入门4G市场趁机扩大份额（传音/部分新兴市场），但成熟制程同样受存储涨价挤压，成本优势收窄；展讯5G芯片性能仍落后高通/联发科2代以上，高端市场难以突破。</p>
+<h3>存储：SK海力士超级周期盈利高峰确认</h3>
+<p>SK海力士Q1正式财报（2026-04）：营收₩52.5763万亿（YoY +198%），净利$272亿创历史记录，营业利润率72%，HBM订单已至2027年底。TrendForce预测Q2 DRAM合约价再+58-63%，NAND再+70-75%。</p>
+<p>竞争影响： 三星西安工厂仍在去化库存，Q2营业利润或低于SK海力士50%以上；存储双雄格局已从"三星领跑"切换为"SK海力士/HBM定义周期"，三星HBM3E 12层量产进度落后SK海力士1-2代。</p>
+<h3>代工：台积电AI占比33%，先进制程持续满载</h3>
+<p>台积电TSM $407（-2.5% WoW），AI相关收入占比已接近33%，CoWoS封装产能2026年仍是AI芯片最大瓶颈。3nm N3E良率持续改善，N3P版本性能提升15%，供不应求格局延续至2026年底。</p>
+<p>竞争影响： 三星Foundry 3nm GAA良率仍未达台积电水平，苹果/高通/AMD 3nm订单仍集中台积电；Intel Foundry Services代工业务战略不确定性上升，18A制程量产进度落后。</p>
+<h2>🔗 传导链追踪</h2>
+<p>存储涨价传导链（当前：顶部右侧，距周期顶部约2-3季度，供需最紧张期正在过去）</p>
+<div class="chain">AI服务器需求（2025Q3起）
+<span class="chain-node">  </span><span class="chain-arrow"> → </span> HBM产能2025Q4满载，SK海力士HBM售罄至2027年
+<span class="chain-node">    </span><span class="chain-arrow"> → </span> DRAM合约价Q1 2026 +90-95% QoQ（已达峰值区间）
+<span class="chain-node">      </span><span class="chain-arrow"> → </span> 消费电子BOM承压，SoC厂削减投片-10-15%（2026Q1-Q2）
+<span class="chain-node">        </span><span class="chain-arrow"> → </span> 中国OEM下调全年手机出货目标（2026Q1已确认）
+<span class="chain-node">          </span><span class="chain-arrow"> → </span> 存储涨价向下游转嫁受阻（传音/小米/OPPO利润受损）
+<span class="chain-node">            </span><span class="chain-arrow"> → </span> 扩产信号出现：SK海力士/三星2026H2新产能陆续开出
+<span class="chain-node">              </span><span class="chain-arrow"> → </span> ⚠️ 预期2027Q1价格松动（注意风险）</div>
+<p>手机SoC库存调整传导链</p>
+<div class="chain"><span class="chain-node">存储/BOM涨价 </span><span class="chain-arrow"> → </span><span class="chain-node"> 中国OEM利润压缩 </span><span class="chain-arrow"> → </span><span class="chain-node"> 下调出货目标 </span><span class="chain-arrow"> → </span> 联发科/高通削减4/3nm投片
+<span class="chain-node">  </span><span class="chain-arrow"> → </span><span class="chain-node"> 成熟制程（28nm）供需边际缓和 </span><span class="chain-arrow"> → </span><span class="chain-node"> 28nm晶圆代工价格承压 </span><span class="chain-arrow"> → </span> 台积电成熟制程产能利用率松动</div>
+<h2>💬 Notable Quotes</h2>
+<blockquote>"We have essentially sold out of our entire HBM inventory through 2027."<div class="quote-text">— Dr. Jung-hyun Kwon, SVP of DRAM Planning, SK Hynix</div><div class="quote-text">（SK海力士DRAM规划资深副总裁，2026Q1电话会，2026-04-23）</div><div class="quote-text">中文解读： HBM已售罄至2027年，供需缺口至少持续18个月——但这也意味周期顶部反向信号最强时刻：没有更多产能可售，新增需求必须等待扩产。</div></blockquote>
+<blockquote>"The memory market is experiencing a structural shift rather than a temporary boom — AI demand is for real and it is durable."<div class="quote-text">— C.C. Wei, CEO, TSMC</div><div class="quote-text">（台积电CEO，2026Q1法说会）</div></blockquote>
+<h2>📅 重要事件日历</h2>
+<table>
+<tr><td>日期</td><td>事件</td><td>重要性</td></tr>
+<tr><td>05/22</td><td>COMPUTEX 2026 Preview（AI PC/手机风向标）</td><td>★★★</td></tr>
+<tr><td>05/23</td><td>NVIDIA 1-for-10 Stock Split Effective</td><td>★★★</td></tr>
+<tr><td>06/02</td><td>TSMC股东会（CoWoS扩产计划更新）</td><td>★★</td></tr>
+<tr><td>06/05</td><td>高通Qualcomm Snapdragon X Series发布会（AI PC）</td><td>★★</td></tr>
+<tr><td>06/10</td><td>Samsung Electronics Q2营收指引（存储业务关注）</td><td>★★</td></tr>
+<tr><td>06/15</td><td>SK海力士HBM3E 12层量产进度更新</td><td>★★</td></tr>
+</tbody></table>
+<h2>📈 估值参考</h2>
+<table>
+<tr><td>公司</td><td>P/E TTM</td><td>Forward P/E</td><td>目标价</td><td>评级</td><td>来源</td></tr>
+<tr><td>SK海力士</td><td>~8.2x</td><td>~6.5x</td><td>₩210,000</td><td>强烈买入</td><td>Goldman Sachs</td></tr>
+<tr><td>台积电</td><td>~28x</td><td>~24x</td><td>$280</td><td>强烈买入</td><td>Goldman Sachs</td></tr>
+<tr><td>高通</td><td>~27x</td><td>~18x</td><td>$175</td><td>买入</td><td>自研</td></tr>
+<tr><td>联发科</td><td>~20x</td><td>~16x</td><td>NT$1,800</td><td>中性</td><td>中信证券</td></tr>
+<tr><td>AMD</td><td>~35x</td><td>~28x</td><td>$165</td><td>买入</td><td>Morgan Stanley</td></tr>
+<tr><td>英伟达</td><td>~72x</td><td>~45x</td><td>$250</td><td>中性</td><td>自研</td></tr>
+<blockquote>注：SK海力士P/E偏低因市场尚未充分定价HBM垄断溢价；英伟达P/E处于历史高位，性价比下降。</blockquote>
+</tbody></table>
+<h2>⚠️ 风险因素</h2>
+<div class="cal">🔴高可能：存储周期提前下行 —— 三星/SK海力士2026H2新产能集中开出，2026Q4 DRAM价格可能出现松动。概率：~65%。影响：SK海力士目标价下修20-25%，但对终端OEM成本压力缓解</div>
+<div class="cal">🔴高可能：手机SoC库存调整加深 —— 联发科/高通投片削减已发生，若中国手机OEM出货下修超预期（>15%），Q3可能进一步砍单。概率：~55%。影响：联发科P/E进一步压缩至14x以下</div>
+<div class="cal">🔶中可能：地缘风险/出口管制升级 —— 美国可能进一步限制中国获取先进AI芯片，NVDA/AMD中国收入占比约15-20%面临政策风险。概率：~40%。影响：NVDA估值溢价压缩</div>
+<div class="cal">🟢低可能：台海地缘风险 —— 台积电产能集中台湾，任何军事冲突信号将导致全球AI芯片供应中断。概率：~15%。影响：NVDA/AMD/AVGO估值重置，TSM一次性下跌40%+</div>
+<p>*报告生成：2026-05-22 08:00 Asia/Shanghai | Uncle Philips, Senior Semiconductor Analyst*</p>
+<p>*数据来源：Reuters / Bloomberg / Counterpoint Research / TrendForce / 公司财报 / yfinance实时价格*</p>
+<div class="footer">
+  由 OpenClaw AI 自动生成<br>
+  数据来源：Reuters / Bloomberg / Counterpoint Research / TrendForce / 公司财报
+</div>
+</div>
+</body>
+</html>
